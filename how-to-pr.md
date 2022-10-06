@@ -1,6 +1,9 @@
-[⇦ Back to: Commit](how-to-commit.md) | [⇧ Overview](README.md) | [**⇨ Next: Review Pull Request**](how-to-pr-review.md)
+[⇦ Back to: Push](how-to-push.md) | [⇧ Overview](README.md) | [**⇨ Next: Review Pull Request**](how-to-pr-review.md)
 
-# Make a Pull Request (PR)
+# Create a Pull Request (PR)
+
+> ## Definitions
+> A **Pull Request (PR)** says “I want to merge these changes into our project. What do you think?” 
 
 > ⛔️TODO⛔️ include link to Notion "How to PR" detailed content for the interested. Finish that up and publish it before Friday.
 
@@ -8,28 +11,16 @@ The process of making a PR is:
 - Push your commit(s) to a GitHub repository.
 - Create a new pull request for that branch on the  [GitHub Pull Requests page](https://github.com/brown-ccv/dscov-github-workshop/pulls).
 
-## Push the branch
-
-### Using GitHub Desktop
-
-### Using `git` on the command line
-
-
 ## Make a Draft Pull Request
 
 - Open the [GitHub Pull Requests page for the shared repository](https://github.com/brown-ccv/dscov-github-workshop/pulls).
 - Click on "New pull request"
 - Choose the branches to compare:
-    - Select base: main (this should be the default)
-    - Select compare: your-new-branch
-- Add the title and description:
-  - a high-level description and 
-  - a reference to the issue you're fixing. 
-    - The issue has a number which looks like "#12". You can find it on the issue page.
-    You should add to the pull request description something which looks like:
-    ```gfm
-    fixes: #12
-    ```
+  - Select base: main (this should be the default)
+  - Select compare: your-new-branch
+- Add the title.
+- Add a description
+- Add a reference to the issue you're fixing by typing "#" and then a keyword from the issue; select the correct issue from the list.
 
 On the "create pull request" button, there is an arrow. Click this, and select "Draft pull request."
 ⛔️TODO⛔️ Image of Draft PR
