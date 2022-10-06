@@ -16,9 +16,10 @@ The process of making a PR is:
 - Choose the branches to compare:
   - Select base: main (this should be the default)
   - Select compare: your-new-branch
-- Add the title.
+- Add the title
 - Add a description
-- Add a reference to the issue you're fixing by typing "#" and then a keyword from the issue; select the correct issue from the list.
+- Add a reference to the issue you're fixing by typing "#" and then a keyword from the issue; select the correct issue from the list
+- Add a few reviewers (2-5 is a good number, including at least one owner of the repository and at least one peer. Try the person next to you in the room or on Zoom.)
 
 On the "create pull request" button, there is an arrow. Click this, and select "Draft pull request."
 ⛔️TODO⛔️ Image of Draft PR
