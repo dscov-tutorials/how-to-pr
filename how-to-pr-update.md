@@ -27,12 +27,13 @@ If someone else has changed how a piece of code works, it's good to check that y
 ### Using GitHub
 
 If there are no conflicts detected, then the pull request will show this at the bottom:
-#########
+<img width="455" alt="Screen Shot 2022-10-06 at 19 48 44" src="https://user-images.githubusercontent.com/2803227/194438225-31ec29cd-d0ab-4823-8f0b-0ee40931af31.png">
 
 If there are conflicts, it will offer you the option to resolve the merge conflicts (covered in the next section). 
-#########
+<img width="836" alt="Screen Shot 2022-10-06 at 19 46 24" src="https://user-images.githubusercontent.com/2803227/194438004-d394cf27-93ab-4fa3-9f7d-b06ea0a301f9.png">
 
-> 💡 Repository Admins can go into the repository Settings and activate the option "Always suggest updating pull request branches", to show an "update branch" button at the bottom of the pull-request, for cases when "main" has been updated. ########### 
+> 💡 Repository Admins can go into the repository Settings and activate the option "Always suggest updating pull request branches", to show an "update branch" button at the bottom of the pull-request, for cases when "main" has been updated. <img width="914" alt="Screen Shot 2022-10-06 at 19 49 49" src="https://user-images.githubusercontent.com/2803227/194438340-d367d69d-dc23-40fa-9daf-17ae0b1612d4.png">
+
 
 ### Using GitHub Desktop
 Ensure you have the latest version of the main branch by clicking "Fetch origin" <img width="1028" alt="Screen Shot 2022-10-06 at 18 35 18" src="https://user-images.githubusercontent.com/2803227/194431428-a7bd6848-459d-40b9-bd46-cdc45ce63a87.png">
@@ -41,6 +42,17 @@ Open the branches menu, and click "Choose a branch to merge into <your-branch-na
 
 Depending on whether or not the branches conflict, you will see a warning about a merge commit, or none.
 
+  <table border="0">
+    <tr>
+      <td>
+<img width="1072" alt="Screen Shot 2022-10-06 at 18 35 55" src="https://user-images.githubusercontent.com/2803227/194437226-47479fe5-185d-42e4-a3a1-cc0c6498a34b.png" />
+      </td>
+      <td>
+  <img width="1072" alt="Screen Shot 2022-10-06 at 18 35 34" src="https://user-images.githubusercontent.com/2803227/194437241-569f4cec-9fa1-4c7f-877c-49cbf14fdd2b.png" />
+      </td>
+    </tr>
+  </table>
+  
 ### Using `git` on the command line
 
 You can update the branch by merging as follows.
