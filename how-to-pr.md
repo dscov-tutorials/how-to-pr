@@ -41,13 +41,3 @@ At this stage, it's best to not make any more updates until the reviewers are fi
 
 If you realise that the code needs updating more, then re-mark the PR as a draft. Your reviewers will be able to see that the PR is no longer ready for review. 
 ![Screen Shot 2022-10-06 at 15 50 11](https://user-images.githubusercontent.com/2803227/194414248-56d4136a-bb05-46bd-989b-eab134659110.png)
-
-
-## Wait for feedback
-Wait until you have the amount of feedback you need.
-
-If your PR is approved by everyone, congratulations!
-
-If not, and once you've got the feedback you want, fix any shortcomings on the *same branch* and then just push the updated branch when you're finished.
-
-**Important:** Ensure you re-request the review from your reviewers once you're finished with the updates.
