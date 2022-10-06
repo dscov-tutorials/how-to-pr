@@ -319,7 +319,7 @@ References[edit]
 ^ "Why does Git use a cryptographic hash function?". Stack Overflow. 1 March 2015. Archived from the original on 1 July 2016.
 ^ "Git – hash-function-transition Documentation". git-scm.com.
 
-External links[edit]
+# External links
 
 Wikimedia Commons has media related to Git.
 
