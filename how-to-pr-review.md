@@ -25,4 +25,3 @@ You're done!
 > - Comment on the content, not the person who created it.
 > - Use the personal pronoun in your feedback: “I think that…” or “I would change how this works in the following way: …” or “I think we understand this concept differently. I see it this way: …”
 > - The PR and any comments or reviews on it **may be available on the web for ever**. Even if a repository is “Private” today, it may be made “Public” in the future, along with all of the PRs and the review comments.
-
