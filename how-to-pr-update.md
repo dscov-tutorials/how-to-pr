@@ -35,7 +35,11 @@ If there are conflicts, it will offer you the option to resolve the merge confli
 > 💡 Repository Admins can go into the repository Settings and activate the option "Always suggest updating pull request branches", to show an "update branch" button at the bottom of the pull-request, for cases when "main" has been updated. ########### 
 
 ### Using GitHub Desktop
-TODO #########
+Ensure you have the latest version of the main branch by clicking "Fetch origin" <img width="1028" alt="Screen Shot 2022-10-06 at 18 35 18" src="https://user-images.githubusercontent.com/2803227/194431428-a7bd6848-459d-40b9-bd46-cdc45ce63a87.png">
+
+Open the branches menu, and click "Choose a branch to merge into <your-branch-name> <img width="1072" alt="Screen Shot 2022-10-06 at 18 35 27" src="https://user-images.githubusercontent.com/2803227/194431467-e7b574e1-555f-48e0-95b7-63201351f10e.png">
+
+Depending on whether or not the branches conflict, you will see a warning about a merge commit, or none.
 
 ### Using `git` on the command line
 
