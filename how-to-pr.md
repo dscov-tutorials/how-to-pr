@@ -5,8 +5,6 @@
 > ## Definitions
 > A **Pull Request (PR)** says “I want to merge these changes into our project. What do you think?” 
 
-> ⛔️TODO⛔️ include link to Notion "How to PR" detailed content for the interested. Finish that up and publish it before Friday.
-
 The process of making a PR is:
 - Push your commit(s) to a GitHub repository.
 - Create a new pull request for that branch on the  [GitHub Pull Requests page](https://github.com/brown-ccv/dscov-github-workshop/pulls).
@@ -34,6 +32,7 @@ If you realise you need to do more work on the code, then [make some more commit
 ## Mark the Pull Request as "Ready for review"
 
 When you click "ready for review" at the bottom of the pull request conversation, the reviewers will be informed that you've requested their review.
+⛔️TODO⛔️ Image of "read for review button"
 
 At this stage, it's best to not make any more updates until the reviewers are finished and have given their feedback. It can be frustrating for the reviewer if the code changes during their review.
 
