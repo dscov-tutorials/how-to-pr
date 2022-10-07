@@ -21,6 +21,7 @@ The development of Git began on 3 April 2005.[17] Torvalds announced the project
 Torvalds turned over maintenance on 26 July 2005 to Junio Hamano, a major contributor to the project.[22] Hamano was responsible for the 1.0 release on 21 December 2005.[23]
 
 ## Naming
+
 Torvalds sarcastically quipped about the name git (which means "unpleasant person" in British English slang): "I'm an egotistical bastard, and I name all my projects after myself. First 'Linux', now 'git'."[24][25] The man page describes Git as "the stupid content tracker".[26] The read-me file of the source code elaborates further:[27]
 
 "git" can mean anything, depending on your mood.
@@ -33,6 +34,12 @@ The source code for Git refers to the program as, "the information manager from 
 
 Design
 Git's design was inspired by BitKeeper and Monotone.[38][39] Git was originally designed as a low-level version-control system engine, on top of which others could write front ends, such as Cogito or StGIT.[39] The core Git project has since become a complete version-control system that is usable directly.[40] While strongly influenced by BitKeeper, Torvalds deliberately avoided conventional approaches, leading to a unique design.[41]
+
+### List of Git Names (Not sure where original list is...)
+1. "Upleasant Person"
+1. "Global Information Tracker"
+1. "Goddamn Idiotic Truckload of Sh*t"
+1. "Useless Person/Entity"
 
 ## Characteristics
 
