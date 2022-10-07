@@ -8,6 +8,10 @@ You or someone with the right to write to the repository can click the "Merge pu
 
 It is also possible to carry out merges using the GitHub Desktop application, or the command line, but these may not work if the base branch is protected (see next section). We recommend using the web interface.
 
+> 💡 It's good **merging etiquette** to have the person who authored the PR merge it, if possible. Among other things, this makes it clear to author and repository owner alike, that the author has *agency* and is *responsible* for the work they've done.
+> 
+> This sometimes isn't possible, for instance if the person has made the pull-request from a fork. 
+
 ## If Not, Then Close
 
 If the people working on the project think that a PR shouldn't become part of the main branch for whatever reason, then you can close the PR without merging.
@@ -26,6 +30,15 @@ We recommend using the GitHub Desktop GUI for this, as selecting commits from th
 - Go through the commit history from oldest to newest, locating each of the commits which should be included in the new PR. 
   - For each, right click on it and select "Cherry-pick commit" <img width="1093" alt="Screen Shot 2022-10-06 at 20 57 44" src="https://user-images.githubusercontent.com/2803227/194444275-d6d2ddac-efbe-4124-a86b-7d112f7d8b6e.png">
 - Check that the result continues to work as you had expected.
+
+> 💡 It's good etiquette to use cherry-picking like this to restructure work which someone else has done. It means that the original author will still be credited as the author of the commit, even if someone else actually presses "commit." 
+>
+> The alternative is to copy and paste code from one branch into another, potentially losing the authorship information. 
+> In this case, it is important to credit the author(s) by adding them as "coauthors" (if using GitHub Desktop).
+> ⛔️TODO add image from coauthor github desktop
+> 
+> For instructions on how to add co-authors on the command line, see [the GitHub Docs on Pull requests](https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/creating-a-commit-with-multiple-authors#creating-co-authored-commits-on-the-command-line)
+
 
 Repeat for any other branches you would like to split out from the original PR.
 
