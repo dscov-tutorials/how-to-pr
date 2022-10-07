@@ -1,4 +1,4 @@
-# dscov-github-workshop
+# how-to-pr
 Demonstration repository for the DSCoV[^1] Lunch Workshop: Collaborative Coding for Science using Git, GitHub and Pull Requests
 
 [^1]: DSCoV: Data Science, Computing, and Visualization
