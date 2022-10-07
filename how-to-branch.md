@@ -81,3 +81,37 @@ Check which branch you're on by calling:
 ```shell
 git status
 ```
+
+### Use an existing branch (local)
+
+You can see which branches are available, both locally and on remote repositories like GitHub.
+
+First get an updated list of the **refs** (branches and tags) from the remote repository:
+```shell
+git fetch --all
+```
+
+Then show the list of branches using:
+```shell
+git branch --all
+```
+
+The list may look something like this:
+```
+  33-update-git-server-heading
+  fix-refs121-122
+* main
+  remotes/origin/33-update-git-server-heading
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/fix-refs121-122
+  remotes/origin/main
+
+```
+
+- The `*` shows your current branch. 
+- Any remote branches are listed as `remotes/origin/...`
+- The line `remotes/origin/HEAD -> origin/main` means that the default branch on the remote "origin" is called "main"
+
+> 💡 **origin** is the default name for "the **remote** repository from which you originally cloned." 
+> - That "remote" could be on your own computer, or on someone else's computer, or on GitHub, or be an archive of a Git repository. In all cases, it's still called a "remote" and by default it's called "origin."
+> - Your repository can have multiple remotes. Each remote has a different name.
