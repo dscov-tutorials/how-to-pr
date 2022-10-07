@@ -4,6 +4,7 @@ Demonstration repository for the DSCoV[^1] Lunch Workshop: Collaborative Coding 
 [^1]: DSCoV: Data Science, Computing, and Visualization
 
 Slack: https://ccv-share.slack.com/signup#/
+
 Zoom: https://brown.zoom.us/s/99374556331
 
 > ## 🎯 Aim for the Workshop
