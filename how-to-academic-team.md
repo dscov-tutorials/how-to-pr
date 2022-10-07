@@ -10,3 +10,4 @@ You can give your organization (and all its repositories) more powerful tools by
   <img width="603" alt="Screen Shot 2022-10-06 at 21 53 17" src="https://user-images.githubusercontent.com/2803227/194450184-bf46837e-b2d2-4233-95de-c4cd37602f1b.png">
 - Click "Upgrade to GitHub Team"
 - Select the organizations you would like to upgrade.
+- Make some modification here
