@@ -318,7 +318,7 @@ References[edit]
 ^ "hash – How safe are signed git tags? Only as safe as SHA-1 or somehow safer?". Information Security Stack Exchange. 22 September 2014. Archived from the original on 24 June 2016.
 
 - [^122] "Why does Git use a cryptographic hash function?". Stack Overflow. 1 March 2015. Archived from the original on 1 July 2016.
-- ^ "Git – hash-function-transition Documentation". git-scm.com.
+- [^123] "Git – hash-function-transition Documentation". git-scm.com.
 
 [^122]: link
 
