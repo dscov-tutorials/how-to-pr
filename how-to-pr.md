@@ -25,9 +25,7 @@ The process of making a PR is:
 
 [^1]: See the full list of keywords like "closes" here: https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/using-keywords-in-issues-and-pull-requests
 
-[^2]: It is possible to create a pull request from a **forked** repository, which is a duplicate in another place on GitHub, e.g. in your private account. We don't recommend using this facility in most cases at Brown. 
-  - PRs based on forks don't have access to the GitHub secrets, which may be required for correctly running the PR checks or build scripts, making it impossible to merge the PR if branch protection rules are implemented. 
-  - In some cases, running the build scripts requires the commits for the PR to be in the shared repository directly, leading to strange errors. 
+[^2]: It is possible to create a pull request from a **forked** repository, which is a duplicate in another place on GitHub, e.g. in your private account. We don't recommend using this facility in most cases at Brown. PRs based on forks don't have access to the GitHub secrets, which may be required for correctly running the PR checks or build scripts, making it impossible to merge the PR if branch protection rules are implemented. In some cases, running the build scripts requires the commits for the PR to be in the shared repository directly, leading to strange errors. 
   
   If you don't have to, don't use forks.
 
