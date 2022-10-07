@@ -80,6 +80,8 @@ From this initial design approach, Git has developed the full set of features ex
 Some data flows and storage levels in the Git revision control system
 Git has two data structures: a mutable index (also called stage or cache) that caches information about the working directory and the next revision to be committed; and an immutable, append-only object database.
 
+![Some data flows and storage levels in the Git revision control system](git_operations.svg)
+
 The index serves as a connection point between the object database and the working tree.
 
 The object database contains five types of objects:[63][53]
