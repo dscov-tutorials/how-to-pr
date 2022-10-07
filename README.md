@@ -9,9 +9,10 @@ Demonstration repository for the DScoV Lunch Workshop: Collaborative Coding for 
 
 - [**⇨ Start Here 🔗**](how-to-start.md) We'll start from an incorrectly formatted version of the [Wikipedia page about Git](https://en.wikipedia.org/wiki/Git). The original is here: https://github.com/brown-ccv/dscov-github-workshop/blob/main/git-text-content.md. 
 - [**Issue 🔗**](how-to-issue.md): You'll choose an issue. 
+- ⛔️TODO [**Issue 🔗**](how-to-clone.md): You'll clone the repository. 
 - [**Branch 🔗**](how-to-branch.md):  You'll make a "branch" which can be shared, where you can make changes. 
 - [**Commit 🔗**](how-to-commit.md):  You'll make a series of "commits" where you actually fix the issue, bit-by-bit.
-- [**Push  🔗**](how-to-push.md): You'll "push" your branch to GitHub.
+- ⛔️TODO [**Push  🔗**](how-to-push.md): You'll "push" your branch to GitHub.
 - **Pull Request**
   - [**Create 🔗**](how-to-pr.md): You'll make a "pull request" (PR) which says "please incorporate the changes in *your* branch into the *main* branch. 
   - [**Review 🔗**](how-to-pr-review.md): Reviewers (your peers) will have the chance to look at the PR and suggest changes and improvements, or to say "this is great, let's merge it!"
