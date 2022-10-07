@@ -28,11 +28,11 @@ Demonstration repository for the DScoV Lunch Workshop: Collaborative Coding for 
 ## Resources
 - **Examples of Markdown code:** each page in this repository is a markdown document.
 - [**GitHub Flavoured Markdown** 🔗](https://github.github.com/gfm/) specifies precisely how to write markdown text for GitHub
+- [**Conventional Names:** 🔗](conventional-names.md) The CCV uses conventional names for issues, pull requests, branches and commits.
 
 
 ####TODO:
 - branches on repos instead of forks (why: GitHub actions involving secrets don't work, submodules might have problems)
 - Etiquette on branches – the author should merge if possible, once checks have passed.
 - add semantic naming 
-  - on issues
-  - add semantic naming on branches
+  on PRs

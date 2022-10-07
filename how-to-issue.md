@@ -1,5 +1,16 @@
 [⇦ Back to: Start](how-to-start.md) | [⇧ Overview](README.md) | [**⇨ Next: Branching**](how-to-branch.md)
 
+# Creating new Issues
+
+- You can create new issues by opening the issues tab on the GitHub page for your repository.
+    ⛔️TODO add image of issues list
+- Click "new issue".
+- You should name them using conventional names[^1], like:
+    - "feat: add guide about PRs", or
+    - "fix: correct spelling on page how-to-issue"
+
+[1^]: See [the page on conventional names](conventional-names.md) for more information.
+
 # Assigning yourself an Issue
 
 ## Choose your issue
