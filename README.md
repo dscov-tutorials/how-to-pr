@@ -15,9 +15,11 @@ Demonstration repository for the DScoV Lunch Workshop: Collaborative Coding for 
 - **Pull Request**
   - [**Create 🔗**](how-to-pr.md): You'll make a "pull request" (PR) which says "please incorporate the changes in *your* branch into the *main* branch. 
   - [**Review 🔗**](how-to-pr-review.md): Reviewers (your peers) will have the chance to look at the PR and suggest changes and improvements, or to say "this is great, let's merge it!"
-  - [**Merge 🔗**](how-to-pr-merge.md): An owner of the repo will merge the approved PR.
+  - [**Merge 🔗**](how-to-pr-merge.md): Someone will merge the approved PR (or close it otherwise).
+  - [**Clean up 🔗**](how-to-clean-up.md): After merging, the now-defunct branch can be deleted.
   - [**Update 🔗**](how-to-pr-update.md): Everyone will update their now-outdated-PRs to incorporate the new merged changes, before they too are merged. 
   - [**Merge Conflicts 🔗**](how-to-merge-conflict.md): If people work on the same part of the document, then the authors will resolve the conflicting changes. 
+  
 
 ## Advanced Topics
 - Setting up your GitHub organization for collaboration using the free "Team" plan for academia
