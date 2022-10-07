@@ -7,11 +7,11 @@ Slack: https://ccv-share.slack.com/signup#/
 
 Zoom: https://brown.zoom.us/s/99374556331
 
-> ## 🎯 Aim for the Workshop
+> # 🎯 Aim for the Workshop
 > 
 > We're going to collectively format a copy of the [Wikipedia page about Git](https://en.wikipedia.org/wiki/Git) using "[Markdown](https://daringfireball.net/projects/markdown/)," one of the text formats which GitHub uses for README files, comments on code, etc. 
 
-## Approach 
+# Approach 
 
 - [**⇨ Start Here**](how-to-start.md) We'll start from an incorrectly formatted version of the [Wikipedia page about Git](https://en.wikipedia.org/wiki/Git). The original is here: https://github.com/brown-ccv/dscov-github-workshop/blob/main/git-text-content.md. 
 - [**Issue**](how-to-issue.md): You'll choose an issue. 
@@ -28,13 +28,13 @@ Zoom: https://brown.zoom.us/s/99374556331
   - [**Merge Conflicts**](how-to-merge-conflict.md): If people work on the same part of the document, then the authors will resolve the conflicting changes. 
 
 
-## Related Topics
+# Related Topics
 - [**Branch protection rules**](branch-protection-rules.md): Set up checks to ensure that only approved and working PRs can be merged into main.
 - [**Conventional Names:**](conventional-names.md) The CCV uses conventional names for issues, pull requests, branches and commits.
 - [**"Team" plan for academia**](how-to-academic-team.md): Setting up your GitHub organization for collaboration using more advanced tools.
 
 
-## Resources
+# Resources
 - **Examples of Markdown code:** each page in this repository is a markdown document.
 - [**🔗 GitHub Flavoured Markdown**](https://github.github.com/gfm/) specifies precisely how to write markdown text for GitHub
 
