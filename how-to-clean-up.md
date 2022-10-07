@@ -3,7 +3,7 @@
 
 Once you've merged your PR, the branch (a pointer to the last commit before the merge) still exists. You can end up with hundreds or thousands of these "stale" branches with no useful function in a long project, which can make keeping track of the current branches more challenging.
 
-You can delete the branches as follows:
+You can delete the branch on GitHub as follows:
 
 ## Using GitHub (strongly recommended)
 
@@ -32,3 +32,23 @@ git push origin --delete <your-branch-name>
 e.g. `git push origin --delete format-external-links-heading`. 
 
 > ⚠️ Like in GitHub desktop, this removes the branch without the ability to restore it.
+
+# Clean up your local repository
+
+Once a branch has been removed on GitHub, it may still be visible in your local repository. If you don't want that, you can remove it.
+
+## Using GitHub Desktop
+
+Stale branches are removed automatically once removed on GitHub.
+
+## Using `git` on the command line
+
+To see which stale branches in your local repository may need to be deleted, run:
+```shell
+git remote prune origin --dry-run
+```
+
+If you think those branches should really be deleted, run:
+```shell
+git remote prune origin
+```
