@@ -1,4 +1,4 @@
-[⇦ Back to: Pull Request](how-to-pr.md) | [⇧ Overview](README.md) | [**⇨ Next: Pull Request Update**](how-to-pr-update.md)
+[⇦ Back to: Create Pull Request](how-to-pr.md) | [⇧ Overview](README.md) | [**⇨ Next: Merge Pull Request**](how-to-pr-merge.md)
 
 # How to Review a Pull Request
 
@@ -12,25 +12,31 @@
 
     - Add a description or comment. 
     - It is sometimes easier for the PR's author if you include concrete suggestions:
+      ![Screen Shot 2022-10-06 at 16 10 14](https://user-images.githubusercontent.com/2803227/194588617-e1639379-cd48-4360-82fb-4d5c78bd4b4a.png)
+      
     - Once your comment is done, click the "start a review" button.
       ![Screen Shot 2022-10-06 at 16 10 14](https://user-images.githubusercontent.com/2803227/194415610-01daa479-b733-4c91-8aff-843073dd53d6.png)
 
 - Continue adding comments as required, adding them to the review.
   ![Screen Shot 2022-10-06 at 16 12 00](https://user-images.githubusercontent.com/2803227/194415905-763e5284-b6f7-4866-a0e5-8755f9e7e7ad.png)
-
-
 - Once you're done, click on "Finish your review" 
   - Add a summary comment.
   - Select whether you want to:
     - make a comment (not explicitly approving the PR), 
     - approve the PR (and allow it to be merged) or 
     - request changes.
-   
-
   - Click "Submit your review"
 ![Screen Shot 2022-10-06 at 16 12 53](https://user-images.githubusercontent.com/2803227/194415779-bd6a0c05-4d40-422b-a912-1d091f97bd07.png)
 
-You're done!
+🎉 You're done! 🎉
+
+> 💡 **Suggesting bigger changes**: If you want to make concrete suggestions which affect several lines or several files, you can create a new PR to hold them. Make sure you: 
+> - Make the "base" branch the same as the original PR.
+> - Make the author of the PR a reviewer.
+> - Add a comment in the original PR to say that you've made a newer PR.
+> 
+> In this case, the PR-merge etiquette is that the author of the *original* PR should merge the changes if they approve of them, just like they merge (or don't ignore) suggestions from comments. 
+
 
 > ## ⚠️ Important considerations around comments
 > Please follow the usual rules of giving feedback:

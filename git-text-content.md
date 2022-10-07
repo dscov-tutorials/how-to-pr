@@ -40,22 +40,31 @@ Git's design is a synthesis of Torvalds's experience with Linux in maintaining a
 
 Strong support for non-linear development
 Git supports rapid branching and merging, and includes specific tools for visualizing and navigating a non-linear development history. In Git, a core assumption is that a change will be merged more often than it is written, as it is passed around to various reviewers. In Git, branches are very lightweight: a branch is only a reference to one commit. With its parental commits, the full branch structure can be constructed.[improper synthesis?]
+
 Distributed development
 Like Darcs, BitKeeper, Mercurial, Bazaar, and Monotone, Git gives each developer a local copy of the full development history, and changes are copied from one such repository to another. These changes are imported as added development branches and can be merged in the same way as a locally developed branch.[43]
+
 Compatibility with existing systems and protocols
 Repositories can be published via Hypertext Transfer Protocol (HTTP), File Transfer Protocol (FTP), or a Git protocol over either a plain socket or Secure Shell (ssh). Git also has a CVS server emulation, which enables the use of existing CVS clients and IDE plugins to access Git repositories. Subversion repositories can be used directly with git-svn.[44]
+
 Efficient handling of large projects
 Torvalds has described Git as being very fast and scalable,[45] and performance tests done by Mozilla[46] showed that it was an order of magnitude faster diffing large repositories than Mercurial and GNU Bazaar; fetching version history from a locally stored repository can be one hundred times faster than fetching it from the remote server.[47]
+
 Cryptographic authentication of history
 The Git history is stored in such a way that the ID of a particular version (a commit in Git terms) depends upon the complete development history leading up to that commit. Once it is published, it is not possible to change the old versions without it being noticed. The structure is similar to a Merkle tree, but with added data at the nodes and leaves.[48] (Mercurial and Monotone also have this property.)
+
 Toolkit-based design
 Git was designed as a set of programs written in C and several shell scripts that provide wrappers around those programs.[49] Although most of those scripts have since been rewritten in C for speed and portability, the design remains, and it is easy to chain the components together.[50]
+
 Pluggable merge strategies
 As part of its toolkit design, Git has a well-defined model of an incomplete merge, and it has multiple algorithms for completing it, culminating in telling the user that it is unable to complete the merge automatically and that manual editing is needed.[51]
+
 Garbage accumulates until collected
 Aborting operations or backing out changes will leave useless dangling objects in the database. These are generally a small fraction of the continuously growing history of wanted objects. Git will automatically perform garbage collection when enough loose objects have been created in the repository. Garbage collection can be called explicitly using git gc.[52]
+
 Periodic explicit object packing
 Git stores each newly created object as a separate file. Although individually compressed, this takes up a great deal of space and is inefficient. This is solved by the use of packs that store a large number of objects delta-compressed among themselves in one file (or network byte stream) called a packfile. Packs are compressed using the heuristic that files with the same name are probably similar, without depending on this for correctness. A corresponding index file is created for each packfile, telling the offset of each object in the packfile. Newly created objects (with newly added history) are still stored as single objects, and periodic repacking is needed to maintain space efficiency. The process of packing the repository can be very computationally costly. By allowing objects to exist in the repository in a loose but quickly generated format, Git allows the costly pack operation to be deferred until later, when time matters less, e.g., the end of a workday. Git does periodic repacking automatically, but manual repacking is also possible with the git gc command. For data integrity, both the packfile and its index have an SHA-1 checksum inside, and the file name of the packfile also contains an SHA-1 checksum. To check the integrity of a repository, run the git fsck command.[53]
+
 Another property of Git is that it snapshots directory trees of files. The earliest systems for tracking versions of source code, Source Code Control System (SCCS) and Revision Control System (RCS), worked on individual files and emphasized the space savings to be gained from interleaved deltas (SCCS) or delta encoding (RCS) the (mostly similar) versions. Later revision-control systems maintained this notion of a file having an identity across multiple revisions of a project. However, Torvalds rejected this concept.[54] Consequently, Git does not explicitly record file revision relationships at any level below the source-code tree.
 
 These implicit revision relationships have some significant consequences:
@@ -186,7 +195,7 @@ On 17 December 2014, an exploit was found affecting the Windows and macOS versio
 
 Git version 2.6.1, released on 29 September 2015, contained a patch for a security vulnerability (CVE-2015–7545)[117] that allowed arbitrary code execution.[118] The vulnerability was exploitable if an attacker could convince a victim to clone a specific URL, as the arbitrary commands were embedded in the URL itself.[119] An attacker could use the exploit via a man-in-the-middle attack if the connection was unencrypted,[119] as they could redirect the user to a URL of their choice. Recursive clones were also vulnerable since they allowed the controller of a repository to specify arbitrary URLs via the gitmodules file.[119]
 
-Git uses SHA-1 hashes internally. Linus Torvalds has responded that the hash was mostly to guard against accidental corruption, and the security a cryptographically secure hash gives was just an accidental side effect, with the main security being signing elsewhere.[120][121] Since a demonstration of the SHAttered attack against git in 2017, git was modified to use a SHA-1 variant resistant to this attack. A plan for hash function transition is being written since February 2020.[122]
+Git uses SHA-1 hashes internally. Linus Torvalds has responded that the hash was mostly to guard against accidental corruption, and the security a cryptographically secure hash gives was just an accidental side effect, with the main security being signing elsewhere.[120][^121] Since a demonstration of the SHAttered attack against git in 2017, git was modified to use a SHA-1 variant resistant to this attack. A plan for hash function transition is being written since February 2020.[^122]
 
 Trademark[edit]
 "Git" is a registered word trademark of Software Freedom Conservancy under US500000085961336 since 2015-02-03.
@@ -316,8 +325,8 @@ References[edit]
 ^ "Git 2.6.1". GitHub. 29 September 2015. Archived from the original on 11 April 2016. Retrieved 26 December 2015.
 ^ Jump up to: a b c Blake Burkhart; et al. (5 October 2015). "Re: CVE Request: git". Archived from the original on 27 December 2015. Retrieved 26 December 2015.
 ^ "hash – How safe are signed git tags? Only as safe as SHA-1 or somehow safer?". Information Security Stack Exchange. 22 September 2014. Archived from the original on 24 June 2016.
-^ "Why does Git use a cryptographic hash function?". Stack Overflow. 1 March 2015. Archived from the original on 1 July 2016.
-^ "Git – hash-function-transition Documentation". git-scm.com.
+- [^121]: "Why does Git use a cryptographic hash function?". Stack Overflow. 1 March 2015. Archived from the original on 1 July 2016.
+- [^122]: "Git – hash-function-transition Documentation". git-scm.com.
 
 # External links
 

@@ -1,4 +1,4 @@
-[⇦ Back to: Issue](how-to-issue.md) | [⇧ Overview](README.md) | [**⇨ Next: Commit**](how-to-commit.md)
+[⇦ Back to: Clone](how-to-clone.md) | [⇧ Overview](README.md) | [**⇨ Next: Commit**](how-to-commit.md)
 
 # Make a Branch based on "main" where you'll solve the issue
 
@@ -18,7 +18,8 @@ There are several ways you can make a new branch.
 
 For all of the methods, you should follow these rules of branch and repository naming:
 - `use-lower-case-with-dashes-separating-the-words`
-- Choose a descriptive name, like `34-feat-update-history-section-formatting` or `42-fix-broken-links-in-introduction` to help others navigate the branches. 
+- Choose a descriptive name, like `34-feat-update-history-section-formatting` or `42-fix-broken-links-in-introduction` to help others navigate the branches.
+- Include the conventional `feat` or `fix` keywords at the beginning of the branch name. See [conventional names](conventional-names.md) for details.
  
  > ⚠️ Projects involving a few people might have tens of concurrent branches. Non-descriptive names like `test-branch1` or `final-update`, `final-update-2` make the task of remembering which branch is which overwhelming or impossible.
 
@@ -65,7 +66,7 @@ git switch -c 34-fix-formatting main
 
 ### Use an existing branch from GitHub
 
-If the branch you want to use is already on GitHub, then you can clone it and switch to it locally.
+If the branch you want to use is already on GitHub, then you can automatically switch to it locally.
 
 First ensure you have an up-to-date version of all the remote commits:
 ```shell
@@ -81,3 +82,37 @@ Check which branch you're on by calling:
 ```shell
 git status
 ```
+
+### Use an existing branch (local)
+
+You can see which branches are available, both locally and on remote repositories like GitHub.
+
+First get an updated list of the **refs** (branches and tags) from the remote repository:
+```shell
+git fetch --all
+```
+
+Then show the list of branches using:
+```shell
+git branch --all
+```
+
+The list may look something like this:
+```
+  33-update-git-server-heading
+  fix-refs121-122
+* main
+  remotes/origin/33-update-git-server-heading
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/fix-refs121-122
+  remotes/origin/main
+
+```
+
+- The `*` shows your current branch. 
+- Any remote branches are listed as `remotes/origin/...`
+- The line `remotes/origin/HEAD -> origin/main` means that the default branch on the remote "origin" is called "main"
+
+> 💡 **origin** is the default name for "the **remote** repository from which you originally cloned." 
+> - That "remote" could be on your own computer, or on someone else's computer, or on GitHub, or be an archive of a Git repository. In all cases, it's still called a "remote" and by default it's called "origin."
+> - Your repository can have multiple remotes. Each remote has a different name.

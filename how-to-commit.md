@@ -1,4 +1,4 @@
-[⇦ Back to: Branch](how-to-branch.md) | [⇧ Overview](README.md) | [**⇨ Next: Pull Request**](how-to-pr.md)
+[⇦ Back to: Branch](how-to-branch.md) | [⇧ Overview](README.md) | [**⇨ Next: Push**](how-to-push.md)
 
 # Solve the issue, commit-by-commit
 
@@ -32,7 +32,8 @@ GitHub Desktop automatically recognizes that you've made a changes to the files.
 Add your commit summary and optional description in the field at the bottom left, and then press "commit to 12-your-branch-name-here".
 
 The commit will appear in the log, shown on the "history" tab.
-⛔️TODO⛔️: add image here (screenshot 08:34)
+<img width="1072" alt="Screen Shot 2022-10-06 at 08 34 00" src="https://user-images.githubusercontent.com/2803227/194583399-b29de289-282f-468e-a877-1e8acc75539b.png">
+
 
 ## Using `git` on the command line
 
@@ -92,3 +93,4 @@ Conventional commit messages have the form:
 - If the change made breaks an existing interface, then 
   - an `!` is appended after the `[optional scope]`, or 
   - `BREAKING CHANGE: <details>` is added in the `<footer>`.
+- The `<footer>` may also include keywords referencing issues and PRs from GitHub. See [the GitHub Docs on keywords](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/using-keywords-in-issues-and-pull-requests) for details.

@@ -7,21 +7,27 @@
 
 The process of making a PR is:
 - Push your commit(s) to a GitHub repository.
-- Create a new pull request for that branch on the  [GitHub Pull Requests page](https://github.com/brown-ccv/dscov-github-workshop/pulls).
+- Create a new pull request for that branch on the  [GitHub Pull Requests page](https://github.com/dscov-tutorials/how-to-pr/pulls).
 
 ## Make a Draft Pull Request
 
-- Open the [GitHub Pull Requests page for the shared repository](https://github.com/brown-ccv/dscov-github-workshop/pulls).
+- Open the [GitHub Pull Requests page for the shared repository](https://github.com/dscov-tutorials/how-to-pr/pulls)[^2].
 - Click on "New pull request"
-- Choose the branches to compare:
+- Choose the **branches** to compare:
   - Select base: main (this should be the default)
   - Select compare: your-new-branch
-- Add the title
-- Add a description
-- Add a reference to the issue you're fixing by typing "#" and then a keyword from the issue; select the correct issue from the list
-- Add a few reviewers (2-5 is a good number, including at least one owner of the repository and at least one peer. Try the person next to you in the room or on Zoom.)
+- Add a [**conventional title**](conventional-names.md) like 
+  - "feat: add new page on brown university policies" or 
+  - "fix: update spelling in README.md"
+- Add a **description**
+- Add a **reference** to the issue you're fixing by typing "closes #"[^1] and then a keyword from the issue; select the correct issue from the list
+- Add a few **reviewers** (2-5 is a good number, including at least one owner of the repository and at least one peer. Try the person next to you in the room or on Zoom.)
 
-On the "create pull request" button, there is an arrow. Click this, and select "Draft pull request."
+[^1]: See the full list of keywords like "closes" here: https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/using-keywords-in-issues-and-pull-requests
+
+[^2]: It is possible to create a pull request from a **forked** repository, which is a duplicate in another place on GitHub, e.g. in your private account. We don't recommend using this facility in most cases at Brown. PRs based on forks don't have access to the GitHub secrets, which may be required for correctly running the PR checks or build scripts, making it impossible to merge the PR if branch protection rules are implemented. In some cases, running the build scripts requires the commits for the PR to be in the shared repository directly, leading to strange errors. If you don't have to, don't use forks.
+
+- On the "create pull request" button, there is an arrow. Click this, and select "Draft pull request."
 ![Screen Shot 2022-10-06 at 15 48 42](https://user-images.githubusercontent.com/2803227/194414058-fc88ff76-4297-4699-bfce-6bc787e549fd.png)
 
 
@@ -41,13 +47,3 @@ At this stage, it's best to not make any more updates until the reviewers are fi
 
 If you realise that the code needs updating more, then re-mark the PR as a draft. Your reviewers will be able to see that the PR is no longer ready for review. 
 ![Screen Shot 2022-10-06 at 15 50 11](https://user-images.githubusercontent.com/2803227/194414248-56d4136a-bb05-46bd-989b-eab134659110.png)
-
-
-## Wait for feedback
-Wait until you have the amount of feedback you need.
-
-If your PR is approved by everyone, congratulations!
-
-If not, and once you've got the feedback you want, fix any shortcomings on the *same branch* and then just push the updated branch when you're finished.
-
-**Important:** Ensure you re-request the review from your reviewers once you're finished with the updates.
