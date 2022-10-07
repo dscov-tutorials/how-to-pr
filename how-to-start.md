@@ -9,7 +9,4 @@
   * the [GitHub Command Line Tool `gh`](https://github.com/cli/cli#installation) *and* the [Git command line tool `git`](https://git-scm.com/downloads)
 - You have a text editor ([VSCode](https://code.visualstudio.com) is commonly used and a pretty good general text editor.)
 
-## Clone the Repository
-⛔️ TODO ⛔️ 
-
 

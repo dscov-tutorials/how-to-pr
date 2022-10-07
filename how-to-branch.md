@@ -65,7 +65,7 @@ git switch -c 34-fix-formatting main
 
 ### Use an existing branch from GitHub
 
-If the branch you want to use is already on GitHub, then you can clone it and switch to it locally.
+If the branch you want to use is already on GitHub, then you can automatically switch to it locally.
 
 First ensure you have an up-to-date version of all the remote commits:
 ```shell
