@@ -13,13 +13,15 @@ The process of making a PR is:
 
 - Open the [GitHub Pull Requests page for the shared repository](https://github.com/brown-ccv/dscov-github-workshop/pulls).
 - Click on "New pull request"
-- Choose the branches to compare:
+- Choose the **branches** to compare:
   - Select base: main (this should be the default)
   - Select compare: your-new-branch
-- Add the title
-- Add a description
-- Add a reference to the issue you're fixing by typing "closes #"[^1] and then a keyword from the issue; select the correct issue from the list
-- Add a few reviewers (2-5 is a good number, including at least one owner of the repository and at least one peer. Try the person next to you in the room or on Zoom.)
+- Add a [**conventional title**](conventional-names.md) like 
+  - "feat: add new page on brown university policies" or 
+  - "fix: update spelling in README.md"
+- Add a **description**
+- Add a **reference** to the issue you're fixing by typing "closes #"[^1] and then a keyword from the issue; select the correct issue from the list
+- Add a few **reviewers** (2-5 is a good number, including at least one owner of the repository and at least one peer. Try the person next to you in the room or on Zoom.)
 
 [^1]: See the full list of keywords like "closes" here: https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/using-keywords-in-issues-and-pull-requests
 

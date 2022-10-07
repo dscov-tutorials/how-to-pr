@@ -34,5 +34,3 @@ Demonstration repository for the DScoV Lunch Workshop: Collaborative Coding for 
 ####TODO:
 - branches on repos instead of forks (why: GitHub actions involving secrets don't work, submodules might have problems)
 - Etiquette on branches – the author should merge if possible, once checks have passed.
-- add semantic naming 
-  on PRs
