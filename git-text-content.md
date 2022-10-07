@@ -204,31 +204,31 @@ Notes[edit]
 ^ GPL-2.0-only since 2005-04-11. Some parts under compatible licenses such as LGPLv2.1.[6]
 ^ Jump up to: a b c d e f g h i j k l m n o p q r s Not listed as an option in this survey
 
-References[edit]
-^ "Initial revision of "git", the information manager from hell". GitHub. 8 April 2005. Archived from the original on 16 November 2015. Retrieved 20 December 2015.
-^ "Commit Graph". GitHub. 8 June 2016. Archived from the original on 20 January 2016. Retrieved 19 December 2015.
-^ "[ANNOUNCE] Git v2.38.0". 3 October 2022. Retrieved 4 October 2022.
-^ "Git website". Archived from the original on 9 June 2022. Retrieved 9 June 2022.
-^ "Git Source Code Mirror". GitHub. Archived from the original on 3 June 2022. Retrieved 9 June 2022.
-^ "Git's LGPL license at github.com". GitHub. 20 May 2011. Archived from the original on 11 April 2016. Retrieved 12 October 2014.
-^ "Git's GPL license at github.com". GitHub. 18 January 2010. Archived from the original on 11 April 2016. Retrieved 12 October 2014.
-^ "Tech Talk: Linus Torvalds on git (at 00:01:30)". Archived from the original on 20 December 2015. Retrieved 20 July 2014 – via YouTube.
-^ Jump up to: a b Torvalds, Linus (7 April 2005). "Re: Kernel SCM saga." linux-kernel (Mailing list). Archived from the original on 1 July 2019. Retrieved 3 February 2017. "So I'm writing some scripts to try to track things a whole lot faster."
-^ Jump up to: a b Torvalds, Linus (10 June 2007). "Re: fatal: serious inflate inconsistency". git (Mailing list).
-^ Jump up to: a b c d Linus Torvalds (3 May 2007). Google tech talk: Linus Torvalds on git. Event occurs at 02:30. Archived from the original on 28 May 2007. Retrieved 16 May 2007.
-^ "A Short History of Git". Pro Git (2nd ed.). Apress. 2014. Archived from the original on 25 December 2015. Retrieved 26 December 2015.
-^ Chacon, Scott (24 December 2014). Pro Git (2nd ed.). New York, NY: Apress. pp. 29–30. ISBN 978-1-4842-0077-3. Archived from the original on 25 December 2015.
-^ Brown, Zack (27 July 2018). "A Git Origin Story". Linux Journal. Linux Journal. Archived from the original on 13 April 2020. Retrieved 28 May 2020.
-^ BitKeeper and Linux: The end of the road? Archived 8 June 2017 at the Wayback Machine
-^ McAllister, Neil (2 May 2005). "Linus Torvalds' BitKeeper blunder". InfoWorld. Archived from the original on 26 August 2015. Retrieved 8 September 2015.
-^ Jump up to: a b Torvalds, Linus (27 February 2007). "Re: Trivia: When did git self-host?". git (Mailing list).
-^ Torvalds, Linus (6 April 2005). "Kernel SCM saga." linux-kernel (Mailing list).
-^ Torvalds, Linus (17 April 2005). "First ever real kernel git merge!". git (Mailing list).
-^ Mackall, Matt (29 April 2005). "Mercurial 0.4b vs git patchbomb benchmark". git (Mailing list).
-^ Torvalds, Linus (17 June 2005). "Linux 2.6.12". git-commits-head (Mailing list).
-^ Torvalds, Linus (27 July 2005). "Meet the new maintainer..." git (Mailing list).
-^ Hamano, Junio C. (21 December 2005). "Announce: Git 1.0.0". git (Mailing list).
-^ "GitFaq: Why the 'Git' name?". Git.or.cz. Archived from the original on 23 July 2012. Retrieved 14 July 2012.
+## References[edit]
+- "Initial revision of "git", the information manager from hell". GitHub. 8 April 2005. Archived from the original on 16 November 2015. Retrieved 20 December 2015.
+- "Commit Graph". GitHub. 8 June 2016. Archived from the original on 20 January 2016. Retrieved 19 December 2015.
+- "[ANNOUNCE] Git v2.38.0". 3 October 2022. Retrieved 4 October 2022.
+- "Git website". Archived from the original on 9 June 2022. Retrieved 9 June 2022.
+- "Git Source Code Mirror". GitHub. Archived from the original on 3 June 2022. Retrieved 9 June 2022.
+- "Git's LGPL license at github.com". GitHub. 20 May 2011. Archived from the original on 11 April 2016. Retrieved 12 October 2014.
+- "Git's GPL license at github.com". GitHub. 18 January 2010. Archived from the original on 11 April 2016. Retrieved 12 October 2014.
+- "Tech Talk: Linus Torvalds on git (at 00:01:30)". Archived from the original on 20 December 2015. Retrieved 20 July 2014 – via YouTube.
+- Jump up to: a b Torvalds, Linus (7 April 2005). "Re: Kernel SCM saga." linux-kernel (Mailing list). Archived from the original on 1 July 2019. Retrieved 3 February 2017. "So I'm writing some scripts to try to track things a whole lot faster."
+- Jump up to: a b Torvalds, Linus (10 June 2007). "Re: fatal: serious inflate inconsistency". git (Mailing list).
+- Jump up to: a b c d Linus Torvalds (3 May 2007). Google tech talk: Linus Torvalds on git. Event occurs at 02:30. Archived from the original on 28 May 2007. Retrieved 16 May 2007.
+- "A Short History of Git". Pro Git (2nd ed.). Apress. 2014. Archived from the original on 25 December 2015. Retrieved 26 December 2015.
+- Chacon, Scott (24 December 2014). Pro Git (2nd ed.). New York, NY: Apress. pp. 29–30. ISBN 978-1-4842-0077-3. Archived from the original on 25 December 2015.
+- Brown, Zack (27 July 2018). "A Git Origin Story". Linux Journal. Linux Journal. Archived from the original on 13 April 2020. Retrieved 28 May 2020.
+- BitKeeper and Linux: The end of the road? Archived 8 June 2017 at the Wayback Machine
+- McAllister, Neil (2 May 2005). "Linus Torvalds' BitKeeper blunder". InfoWorld. Archived from the original on 26 August 2015. Retrieved 8 September 2015.
+- Jump up to: a b Torvalds, Linus (27 February 2007). "Re: Trivia: When did git self-host?". git (Mailing list).
+- Torvalds, Linus (6 April 2005). "Kernel SCM saga." linux-kernel (Mailing list).
+- Torvalds, Linus (17 April 2005). "First ever real kernel git merge!". git (Mailing list).
+- Mackall, Matt (29 April 2005). "Mercurial 0.4b vs git patchbomb benchmark". git (Mailing list).
+- Torvalds, Linus (17 June 2005). "Linux 2.6.12". git-commits-head (Mailing list).
+- Torvalds, Linus (27 July 2005). "Meet the new maintainer..." git (Mailing list).
+- Hamano, Junio C. (21 December 2005). "Announce: Git 1.0.0". git (Mailing list).
+- "GitFaq: Why the 'Git' name?". Git.or.cz. Archived from the original on 23 July 2012. Retrieved 14 July 2012.
 ^ "After controversy, Torvalds begins work on 'git'". PC World. 14 July 2012. Archived from the original on 1 February 2011. Torvalds seemed aware that his decision to drop BitKeeper would also be controversial. When asked why he called the new software, 'git', British slang meaning 'a rotten person', he said. 'I'm an egotistical bastard, so I name all my projects after myself. First Linux, now git.'
 ^ "git(1) Manual Page". Archived from the original on 21 June 2012. Retrieved 21 July 2012.
 ^ "Initial revision of 'git', the information manager from hell · git/git@e83c516". GitHub. Archived from the original on 8 October 2017. Retrieved 21 January 2016.
