@@ -40,7 +40,7 @@ We recommend using the GitHub Desktop GUI for this, as selecting commits from th
 >
 > The alternative is to copy and paste code from one branch into another, potentially losing the authorship information. 
 > In this case, it is important to credit the author(s) by adding them as "coauthors" (if using GitHub Desktop).
-> ⛔️TODO add image from coauthor github desktop
+> <img width="1072" alt="Screen Shot 2022-10-07 at 10 23 14" src="https://user-images.githubusercontent.com/2803227/194585039-c9e06669-a96d-4813-ac06-1eb6e3a33fdb.png">
 > 
 > For instructions on how to add co-authors on the command line, see [the GitHub Docs on Pull requests](https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/creating-a-commit-with-multiple-authors#creating-co-authored-commits-on-the-command-line)
 
