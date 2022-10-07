@@ -10,7 +10,9 @@ It is also possible to carry out merges using the GitHub Desktop application, or
 
 > 💡 It's good **merging etiquette** to have the person who authored the PR merge it, if possible. Among other things, this makes it clear to author and repository owner alike, that the author has *agency* and is *responsible* for the work they've done.
 > 
-> This sometimes isn't possible, for instance if the person has made the pull-request from a fork. 
+> This sometimes isn't possible, for instance if the person has made the pull-request from a fork. In this case, ensure that the PR really is finished by checking with the author, before you merge it.
+>
+> As a repository owner, you can enforce that a PR is only merged once it is approved by using [**branch protection rules**](#branch-protection-rules).
 
 ## If Not, Then Close
 
