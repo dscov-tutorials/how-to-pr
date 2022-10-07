@@ -22,7 +22,7 @@ Demonstration repository for the DScoV Lunch Workshop: Collaborative Coding for 
 
 
 ## Related Topics
-- [Setting up your GitHub organization for collaboration using the free "Team" plan for academia.](how-to-academic-team.md)
+- [**"Team" plan for academia. 🔗**](how-to-academic-team.md): Setting up your GitHub organization for collaboration using more advanced tools.
 
 ## Resources
 - [GitHub flavoured Markdown 🔗](https://github.github.com/gfm/) specifies precisely how to write Markdown text for GitHub
