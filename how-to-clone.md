@@ -10,7 +10,8 @@ You need[^1] to load the repository (and all its history) on your computer befor
 
 - Navigate to the repository page on GitHub.
 - Press the "Code" button
-⛔️TODO Code Button
+<img width="999" alt="Screen Shot 2022-10-07 at 08 12 40" src="https://user-images.githubusercontent.com/2803227/194582994-8d235faf-cb3a-48b1-82a7-263ab2ca4614.png">
+
 
 - Press the "Open with GitHub Desktop" Button
 - Follow the prompts on screen
@@ -37,8 +38,7 @@ gh auth login
 > 💡 We no longer recommend using self-generated public keys (like `~/.ssh/id_rsa.pub`) to authenticate on GitHub. The modern authentication schemes using tokens, and incorporating 2FA, are more secure, especially in shared systems like Oscar. `gh` uses these tokens.
 
 - Navigate to the repository page on GitHub.
-- Press the "Code" button
-⛔️TODO Code Button
+- Press the "Code" button <img width="1200" alt="Screen Shot 2022-10-07 at 10 53 12" src="https://user-images.githubusercontent.com/2803227/194583137-0be9689e-f845-4c7f-abfa-a0641759a3c7.png">
 - Select GitHub CLI
 - Copy the command, which will look like this: `gh repo clone dscov-tutorials/how-to-pr`
 

@@ -32,7 +32,8 @@ GitHub Desktop automatically recognizes that you've made a changes to the files.
 Add your commit summary and optional description in the field at the bottom left, and then press "commit to 12-your-branch-name-here".
 
 The commit will appear in the log, shown on the "history" tab.
-⛔️TODO⛔️: add image here (screenshot 08:34)
+<img width="1072" alt="Screen Shot 2022-10-06 at 08 34 00" src="https://user-images.githubusercontent.com/2803227/194583399-b29de289-282f-468e-a877-1e8acc75539b.png">
+
 
 ## Using `git` on the command line
 

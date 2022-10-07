@@ -7,7 +7,9 @@ You can share your branch (and all of the commits required to recreate its histo
 ## Using GitHub Desktop
 
 Click the "Publish Branch" button at the top of the UI
-⛔️TODO: publish branch image
+<img width="1072" alt="Screen Shot 2022-10-07 at 08 40 43" src="https://user-images.githubusercontent.com/2803227/194583918-39d229b2-71df-4a87-95f1-43a62e266846.png">
+
+
 
 ## Using `git` on the command line
 

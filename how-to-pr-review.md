@@ -30,7 +30,7 @@
   - Click "Submit your review"
 ![Screen Shot 2022-10-06 at 16 12 53](https://user-images.githubusercontent.com/2803227/194415779-bd6a0c05-4d40-422b-a912-1d091f97bd07.png)
 
-You're done!
+🎉 You're done! 🎉
 
 > ## ⚠️ Important considerations around comments
 > Please follow the usual rules of giving feedback:
