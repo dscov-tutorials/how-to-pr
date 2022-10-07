@@ -26,6 +26,7 @@ Demonstration repository for the DScoV Lunch Workshop: Collaborative Coding for 
 - [**"Team" plan for academia. 🔗**](how-to-academic-team.md): Setting up your GitHub organization for collaboration using more advanced tools.
 
 ## Resources
-- [GitHub flavoured Markdown 🔗](https://github.github.com/gfm/) specifies precisely how to write Markdown text for GitHub
+- **Examples of Markdown code:** each page in this repository is a markdown document.
+- [**GitHub Flavoured Markdown** 🔗](https://github.github.com/gfm/) specifies precisely how to write markdown text for GitHub
 
 
