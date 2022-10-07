@@ -191,6 +191,7 @@ Git uses SHA-1 hashes internally. Linus Torvalds has responded that the hash was
 Trademark[®™℠]
 "Git" is a registered word trademark of Software Freedom Conservancy under US500000085961336 since 2015-02-03.
 Pretend this part is formatted properly. Use your imagination. I don't know how to legally format the trademark section.
+test 123. 4242424242
 
 
 Notes[edit]
