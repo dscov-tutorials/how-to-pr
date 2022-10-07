@@ -15,7 +15,7 @@ It is also possible to carry out merges using the GitHub Desktop application, or
 > 
 > This sometimes isn't possible, for instance if the person has made the pull-request from a fork. In this case, ensure that the PR really is finished by checking with the author, before you merge it.
 >
-> As a repository owner, you can enforce that a PR is only merged once it is approved by using [**branch protection rules**](#branch-protection-rules).
+> As a repository owner, you can enforce that a PR is only merged once it is approved by using [**branch protection rules**](branch-protection-rules.md).
 
 ## If Not, Then Close
 
@@ -48,13 +48,3 @@ We recommend using the GitHub Desktop GUI for this, as selecting commits from th
 Repeat for any other branches you would like to split out from the original PR.
 
 Then close the PR as above.
-
-# Branch Protection Rules
-> 💡 Repository owners can set up **branch protection rules** to enforce a minimum number of approvals, to avoid people committing directly to "main" without a PR, etc. 
- 
-Find these in the repository Settings > Branches > Branch protection rules. <img width="1145" alt="Screen Shot 2022-10-06 at 20 34 38" src="https://user-images.githubusercontent.com/2803227/194442196-ba46a05a-4a0d-4af0-ae68-fbe6775938f8.png">
-
-We recommend:
-- **Require a pull request before merging**
-  - **Require approvals**. *Required number of approvals before merging* should be 1 or more, depending on your team.
-- **Require status checks to pass before merging**. This ensures that any automated build scripts have to run correctly, or syntax checkers have to pass. Many of these can be set up fairly easily using GitHub Actions.
