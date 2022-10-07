@@ -1,4 +1,4 @@
-[⇦ Back to: PR Update](how-to-pr-update.md) | [⇧ Overview](README.md)
+[⇦ Back to: Update Pull Request](how-to-pr-update.md) | [⇧ Overview](README.md)
 
 # Resolving merge conflicts
 
