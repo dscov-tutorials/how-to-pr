@@ -64,12 +64,13 @@ It is slightly more costly to examine the change history of one file than the wh
 Renames are handled implicitly rather than explicitly. A common complaint with CVS is that it uses the name of a file to identify its revision history, so moving or renaming a file is not possible without either interrupting its history or renaming the history and thereby making the history inaccurate. Most post-CVS revision-control systems solve this by giving a file a unique long-lived name (analogous to an inode number) that survives renaming. Git does not record such an identifier, and this is claimed as an advantage.[56][57] Source code files are sometimes split or merged, or simply renamed,[58] and recording this as a simple rename would freeze an inaccurate description of what happened in the (immutable) history. Git addresses the issue by detecting renames while browsing the history of snapshots rather than recording it when making the snapshot.[59] (Briefly, given a file in revision N, a file of the same name in revision N − 1 is its default ancestor. However, when there is no like-named file in revision N − 1, Git searches for a file that existed only in revision N − 1 and is very similar to the new file.) However, it does require more CPU-intensive work every time the history is reviewed, and several options to adjust the heuristics are available. This mechanism does not always work; sometimes a file that is renamed with changes in the same commit is read as a deletion of the old file and the creation of a new file. Developers can work around this limitation by committing the rename and the changes separately.
 Git implements several merging strategies; a non-default strategy can be selected at merge time:[60]
 
-resolve: the traditional three-way merge algorithm.
-recursive: This is the default when pulling or merging one branch, and is a variant of the three-way merge algorithm.
-When there are more than one common ancestors that can be used for a three-way merge, it creates a merged tree of the common ancestors and uses that as the reference tree for the three-way merge. This has been reported to result in fewer merge conflicts without causing mis-merges by tests done on prior merge commits taken from Linux 2.6 kernel development history. Also, this can detect and handle merges involving renames.
+  - **resolve**: the traditional three-way merge algorithm.
+  - **recursive**: This is the default when pulling or merging one branch, and is a variant of the three-way merge algorithm.
 
-— Linus Torvalds[61]
-octopus: This is the default when merging more than two heads.
+        When there are more than one common ancestors that can be used for a three-way merge, it creates a merged tree of the common ancestors and uses that as the reference tree for the three-way merge. This has been reported to result in fewer merge conflicts without causing mis-merges by tests done on prior merge commits taken from Linux 2.6 kernel development history. Also, this can detect and handle merges involving renames.
+
+         — Linus Torvalds[61]
+  - **octopus**: This is the default when merging more than two heads.
 Data structures[edit]
 Git's primitives are not inherently a source-code management system. Torvalds explains:[62]
 
