@@ -2,14 +2,14 @@
 
 # Creating new Issues
 
-- You can create new issues by opening the issues tab on the GitHub page for your repository.
-    ⛔️TODO add image of issues list
+- You can create new issues by opening the issues tab on the GitHub page for your repository. <img width="1200" alt="Screen Shot 2022-10-07 at 10 30 54" src="https://user-images.githubusercontent.com/2803227/194582750-a40e7445-1b74-46e5-bd02-979b41bd37b6.png">
+
 - Click "new issue".
 - You should name them using conventional names[^1], like:
     - "feat: add guide about PRs", or
     - "fix: correct spelling on page how-to-issue"
 
-[1^]: See [the page on conventional names](conventional-names.md) for more information.
+[^1]: See [the page on conventional names](conventional-names.md) for more information.
 
 # Assigning yourself an Issue
 
