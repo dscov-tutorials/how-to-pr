@@ -14,7 +14,7 @@
 # Assigning yourself an Issue
 
 ## Choose your issue
-- Look at the [list of issues](https://github.com/brown-ccv/dscov-github-workshop/issues/) 
+- Look at the [list of issues](https://github.com/dscov-tutorials/how-to-pr/issues/) 
 - Pick one you like. 
 
 ## Make it yours
