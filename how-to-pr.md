@@ -18,8 +18,10 @@ The process of making a PR is:
   - Select compare: your-new-branch
 - Add the title
 - Add a description
-- Add a reference to the issue you're fixing by typing "#" and then a keyword from the issue; select the correct issue from the list
+- Add a reference to the issue you're fixing by typing "closes #"[^1] and then a keyword from the issue; select the correct issue from the list
 - Add a few reviewers (2-5 is a good number, including at least one owner of the repository and at least one peer. Try the person next to you in the room or on Zoom.)
+
+[^1]: See the full list of keywords like "closes" here: https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/using-keywords-in-issues-and-pull-requests
 
 On the "create pull request" button, there is an arrow. Click this, and select "Draft pull request."
 ![Screen Shot 2022-10-06 at 15 48 42](https://user-images.githubusercontent.com/2803227/194414058-fc88ff76-4297-4699-bfce-6bc787e549fd.png)
