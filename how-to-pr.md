@@ -27,7 +27,7 @@ The process of making a PR is:
 
 [^2]: It is possible to create a pull request from a **forked** repository, which is a duplicate in another place on GitHub, e.g. in your private account. We don't recommend using this facility in most cases at Brown. PRs based on forks don't have access to the GitHub secrets, which may be required for correctly running the PR checks or build scripts, making it impossible to merge the PR if branch protection rules are implemented. In some cases, running the build scripts requires the commits for the PR to be in the shared repository directly, leading to strange errors. If you don't have to, don't use forks.
 
-On the "create pull request" button, there is an arrow. Click this, and select "Draft pull request."
+- On the "create pull request" button, there is an arrow. Click this, and select "Draft pull request."
 ![Screen Shot 2022-10-06 at 15 48 42](https://user-images.githubusercontent.com/2803227/194414058-fc88ff76-4297-4699-bfce-6bc787e549fd.png)
 
 
