@@ -30,7 +30,7 @@ Zoom: https://brown.zoom.us/s/99374556331
 - [**"Team" plan for academia**](how-to-academic-team.md): Setting up your GitHub organization for collaboration using more advanced tools.
 - [**Branch protection rules**](branch-protection-rules.md): Set up checks to ensure that only approved and working PRs can be merged into main.
 - [**Conventional Names:**](conventional-names.md) The CCV uses conventional names for issues, pull requests, branches and commits.
-- 
+
 ## Resources
 - **Examples of Markdown code:** each page in this repository is a markdown document.
 - [**🔗 GitHub Flavoured Markdown**](https://github.github.com/gfm/) specifies precisely how to write markdown text for GitHub
