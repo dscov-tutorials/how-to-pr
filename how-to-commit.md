@@ -7,30 +7,23 @@
 > 
 > 💡 Commits are listed in the **log** 
 
-Make a _series_ of "commits" to solve the issue (not just one big commit).
+## Approach
 
-- Make a small change, making an improvement, then commit it. 
-  
-  > 📐 No commit is too small.
-  > 
-  > - Try to make changes which retain the internal consistency of the document, e.g. replacing a noun with a synonym throughout a paragraph or document.
-  > - Making several tiny commits each couple of minutes is normal.
+- Make a small change, making an improvement.
+- Commit it (see below for details for your Git Client):
+  - Add the files which you want to update
+  - Add a summary of 50 characters or fewer, e.g. 
+    - "fix: remove warning about citations in Characteristics section" or 
+    - "feat: add new list of maintainers in overview". ("feat" is short for "feature". See [Advanced Commit Messages](#advanced-commit-messages) for more details.)
+  - (Optionally) add a more detailed description.
+- Repeat until you've made the **minimum number of commits** which make sense for someone else to review and merge into the repository. This will be your "pull request."
 
-- Repeat until you've made the **minimum number of commits** which make sense for someone else to review and merge into the repository.
-  
-  > 📐 No PR is too small.
-  > 
-  > If you think your issue is too big to fix in one go, and you can see a way to break it down into several independent chunks, do that.
 
-Each commit needs a commit message which contains:
-- a summary of 50 characters or fewer, e.g. 
-  - "fix: remove warning about citations in Characteristics section" or 
-  - "feat: add new list of maintainers in overview". 
-- (optionally) a more detailed description.
+> 💡 **Commit pro-tips**:
+> - A good commit does exactly one thing. 
+> - Making several tiny commits each couple of minutes is normal (and often good).
+> - Try to make commits which retain the internal consistency of the document, e.g. replacing a noun with a synonym throughout a paragraph or document.
 
-> 💡 "feat" means "feature". 
-
-See [Advanced Commit Messages](#advanced-commit-messages) for details.
 
 ## Using GitHub Desktop
 GitHub Desktop automatically recognizes that you've made a changes to the files.

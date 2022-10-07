@@ -51,6 +51,8 @@ The new branch will be created and you can start to make changes.
 
 ## Using `git` on the command line
 
+### Create a new branch
+
 If you are already on the branch where your changes need to be included – in our example always the "main" branch, then you can run this command to switch to a new branch you **c**reate
 ```shell
 git switch -c 34-fix-formatting
@@ -61,4 +63,21 @@ git switch -c 34-fix-formatting main
 ```
 ... where `main` is the name of the "start-point," that is the commit where your new branch will begin.
 
+### Use an existing branch from GitHub
 
+If the branch you want to use is already on GitHub, then you can clone it and switch to it locally.
+
+First ensure you have an up-to-date version of all the remote commits:
+```shell
+git fetch
+```
+
+Then, create and switch to the branch from the remote:
+```shell
+git switch 35-branch-on-github
+```
+
+Check which branch you're on by calling:
+```shell
+git status
+```
