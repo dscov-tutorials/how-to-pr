@@ -19,13 +19,10 @@ Demonstration repository for the DScoV Lunch Workshop: Collaborative Coding for 
   - [**Clean up 🔗**](how-to-clean-up.md): After merging, the now-defunct branch can be deleted.
   - [**Update 🔗**](how-to-pr-update.md): Everyone will update their now-outdated-PRs to incorporate the new merged changes, before they too are merged. 
   - [**Merge Conflicts 🔗**](how-to-merge-conflict.md): If people work on the same part of the document, then the authors will resolve the conflicting changes. 
-  
 
-## Advanced Topics
-- Setting up your GitHub organization for collaboration using the free "Team" plan for academia
-- Important settings:
-  - Branch protection
-  - Delete HEAD branch after merge
+
+## Related Topics
+- [Setting up your GitHub organization for collaboration using the free "Team" plan for academia.](how-to-academic-team.md)
 
 ## Resources
 - [GitHub flavoured Markdown 🔗](https://github.github.com/gfm/) specifies precisely how to write Markdown text for GitHub
