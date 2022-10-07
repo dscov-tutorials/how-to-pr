@@ -92,3 +92,4 @@ Conventional commit messages have the form:
 - If the change made breaks an existing interface, then 
   - an `!` is appended after the `[optional scope]`, or 
   - `BREAKING CHANGE: <details>` is added in the `<footer>`.
+- The `<footer>` may also include keywords referencing issues and PRs from GitHub. See [the GitHub Docs on keywords](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/using-keywords-in-issues-and-pull-requests) for details.
