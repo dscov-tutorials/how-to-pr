@@ -115,9 +115,9 @@ The first Windows port of Git was primarily a Linux-emulation framework that hos
 
 The JGit implementation of Git is a pure Java software library, designed to be embedded in any Java application. JGit is used in the Gerrit code-review tool, and in EGit, a Git client for the Eclipse IDE.[71]
 
-Go-git is an open-source implementation of Git written in pure Go.[72] It is currently used for backing projects as a SQL interface for Git code repositories[73] and providing encryption for Git.[74]
+Go-git is an open-source implementation of Git written in pure Go.[72](https://git-scm.com/book/en/v2/Appendix-B%3A-Embedding-Git-in-your-Applications-go-git) It is currently used for backing projects as a SQL interface for Git code repositories[73](https://github.com/src-d/gitbase) and providing encryption for Git.[74](https://keybase.io/blog/encrypted-git-for-everyone)
 
-The Dulwich implementation of Git is a pure Python software component for Python 2.7, 3.4 and 3.5.[75]
+The Dulwich implementation of Git is a pure Python software component for Python 2.7, 3.4 and 3.5.[75](https://www.dulwich.io/)
 
 The libgit2 implementation of Git is an ANSI C software library with no other dependencies, which can be built on multiple platforms, including Windows, Linux, macOS, and BSD.[76] It has bindings for many programming languages, including Ruby, Python, and Haskell.[77][78][79]
 
