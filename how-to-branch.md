@@ -1,4 +1,4 @@
-[⇦ Back to: Issue](how-to-issue.md) | [⇧ Overview](README.md) | [**⇨ Next: Commit**](how-to-commit.md)
+[⇦ Back to: Clone](how-to-clone.md) | [⇧ Overview](README.md) | [**⇨ Next: Commit**](how-to-commit.md)
 
 # Make a Branch based on "main" where you'll solve the issue
 

@@ -1,4 +1,4 @@
-[⇦ Back to: Branch](how-to-branch.md) | [⇧ Overview](README.md) | [**⇨ Next: Pull Request**](how-to-pr.md)
+[⇦ Back to: Branch](how-to-branch.md) | [⇧ Overview](README.md) | [**⇨ Next: Push**](how-to-push.md)
 
 # Solve the issue, commit-by-commit
 

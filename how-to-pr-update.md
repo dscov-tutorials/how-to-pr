@@ -1,4 +1,4 @@
-[⇦ Back to: PR](how-to-pr.md) | [⇧ Overview](README.md) | [**⇨ Next: Merge Conflict**](how-to-merge-conflict.md)
+[⇦ Back to: Clean up](how-to-clean-up.md) | [⇧ Overview](README.md) | [**⇨ Next: Merge Conflict**](how-to-merge-conflict.md)
 
 # How to update your Pull Request
 

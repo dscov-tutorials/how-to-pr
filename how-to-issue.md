@@ -1,4 +1,4 @@
-[⇦ Back to: Start](how-to-start.md) | [⇧ Overview](README.md) | [**⇨ Next: Branching**](how-to-branch.md)
+[⇦ Back to: Start](how-to-start.md) | [⇧ Overview](README.md) | [**⇨ Next: Cloning**](how-to-clone.md)
 
 # Creating new Issues
 

@@ -1,4 +1,4 @@
-[⇦ Back to: Pull Request](how-to-pr.md) | [⇧ Overview](README.md) | [**⇨ Next: Pull Request Update**](how-to-pr-update.md)
+[⇦ Back to: Create Pull Request](how-to-pr.md) | [⇧ Overview](README.md) | [**⇨ Next: Merge Pull Request**](how-to-pr-merge.md)
 
 # How to Review a Pull Request
 

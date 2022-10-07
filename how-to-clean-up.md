@@ -1,4 +1,6 @@
-# Clean up after yourself
+[⇦ Back to: Merge Pull Request](how-to-pr-merge.md) | [⇧ Overview](README.md) | [**⇨ Next: Update Pull Request**](how-to-pr-update.md)
+
+# 🧹 Clean up after yourself
 > 💡 Repository owners can set the **automatically delete head branches** setting in the repository settings. This ensures that pull request branches are automatically deleted (but recoverable) after merging.
 
 Once you've merged your PR, the branch (a pointer to the last commit before the merge) still exists. You can end up with hundreds or thousands of these "stale" branches with no useful function in a long project, which can make keeping track of the current branches more challenging.

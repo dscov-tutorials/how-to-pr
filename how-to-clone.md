@@ -1,3 +1,5 @@
+[⇦ Back to: Issue](how-to-issue.md) | [⇧ Overview](README.md) | [**⇨ Next: Branch**](how-to-branch.md)
+
 # Clone the repository, making a copy on your computer
 
 You need[^1] to load the repository (and all its history) on your computer before you can begin to change it.
