@@ -188,12 +188,12 @@ Git version 2.6.1, released on 29 September 2015, contained a patch for a securi
 
 Git uses SHA-1 hashes internally. Linus Torvalds has responded that the hash was mostly to guard against accidental corruption, and the security a cryptographically secure hash gives was just an accidental side effect, with the main security being signing elsewhere.[120][^121] Since a demonstration of the SHAttered attack against git in 2017, git was modified to use a SHA-1 variant resistant to this attack. A plan for hash function transition is being written since February 2020.[^122]
 
-Trademark[edit]
+## Trademark[edit]
 "Git" is a registered word trademark of Software Freedom Conservancy under US500000085961336 since 2015-02-03.
 
-Notes[edit]
-^ GPL-2.0-only since 2005-04-11. Some parts under compatible licenses such as LGPLv2.1.[6]
-^ Jump up to: a b c d e f g h i j k l m n o p q r s Not listed as an option in this survey
+## Notes[edit]
+- ^ GPL-2.0-only since 2005-04-11. Some parts under compatible licenses such as LGPLv2.1.[6]
+- ^ Jump up to: a b c d e f g h i j k l m n o p q r s Not listed as an option in this survey
 
 References[edit]
 ^ "Initial revision of "git", the information manager from hell". GitHub. 8 April 2005. Archived from the original on 16 November 2015. Retrieved 20 December 2015.
