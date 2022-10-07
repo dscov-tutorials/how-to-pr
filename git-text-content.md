@@ -326,11 +326,15 @@ Git uses SHA-1 hashes internally. Linus Torvalds has responded that the hash was
 ^ "Git 2.6.1". GitHub. 29 September 2015. Archived from the original on 11 April 2016. Retrieved 26 December 2015.
 ^ Jump up to: a b c Blake Burkhart; et al. (5 October 2015). "Re: CVE Request: git". Archived from the original on 27 December 2015. Retrieved 26 December 2015.
 ^ "hash – How safe are signed git tags? Only as safe as SHA-1 or somehow safer?". Information Security Stack Exchange. 22 September 2014. Archived from the original on 24 June 2016.
+
 - [^121]: "Why does Git use a cryptographic hash function?". Stack Overflow. 1 March 2015. Archived from the original on 1 July 2016.
-- [^123]: "Git – hash-function-transition Documentation". git-scm.com.
+- [^122]: "Git – hash-function-transition Documentation". git-scm.com.
 
 # External links
 
+- [^121]: "Why does Git use a cryptographic hash function?". Stack Overflow. 1 March 2015. Archived from the original on 1 July 2016.
+
+- [^122]: "Git – hash-function-transition Documentation". git-scm.com.
 Wikimedia Commons has media related to Git.
 
 Wikibooks has a book on the topic of: Git
